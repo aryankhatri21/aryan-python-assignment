@@ -1,0 +1,126 @@
+aryan.txt
+
+ques1) calculating the simple interest 
+
+principal=float(input("enter the principal amount:"))
+rate=float(input("enter the rate:"))
+time=float(input("enter the time:"))
+simpleinterest=(principal*rate*time)/100
+print("the simple interest is:",simpleinterest)
+
+
+
+ques2)calculate area and perimeter of rectangle
+
+length=int(input("enter the length of rectangle:"))
+breadth=int(input("enter the lenth of rectangle:"))
+area= length*breadth
+perimeter=2*(length+breadth)
+print("the area of rectangle is:",area)
+print("the perimeter of rectangle is:",perimeter)
+
+
+
+ques3)swap two nos without using third variable
+
+x=int(input("enter the value of x:"))
+y=int(input("enter the value of y:"))
+print("the value of x before swapping:\n",x,"and the value of y before swapping:\n",y)
+x,y=y,x
+print("the value of x after swapping:\n",x,"and the value of y after swapping:\n",y)
+
+#using third variable
+
+x=int(input("enter the value of x:"))
+y=int(input("enter the value of y:"))
+z=int
+print("the value of x before swapping:\n",x,"and the value of y before swapping:\n",y)
+x=z
+x=y
+z=y
+print("the value of x after swapping:\n",x,"and the value of y after swapping:\n",y)
+
+
+
+ques4) check whether the year is leap or not
+
+year=int(input("enter the year:"))
+if year%4==0:
+ print("the year is a leap year")
+else:
+ print("the year is not a leap year")
+ 
+ 
+
+ques6)convert fahrenheit to celsius
+
+temp=float(input("Enter the temperature in fahrenheit:\n"))
+celsius = (temperature - 32) * 5 / 9
+print("Temperature in celsius: " , celsius)
+
+#celsius to fahrenheit
+
+temp= int(input("Enter the temperature in Celsius :\n"))
+fahrenheit = (1.8 * celsius) + 32
+print("Temperature in Fahrenheit :", fahrenheit)
+
+
+
+
+ques9) check number is positive or negative
+
+n=int(input("enter a number:"))
+if n>=0:
+ print("the number is positive")
+else:
+ print("the number is negative")
+ 
+ 
+ 
+ques8) check traingle is isosceles,equilateral or scalene
+
+x=int(input("enter the length of side 1 :"))
+y=int(input("enter the length of side 2 :"))
+z=int(input("enter the length of side 3 :"))
+if x==y==z:
+ print("the given triangle is equilateral")
+elif x==y or y==z or x==z:
+ print("the given triangle is isosceles")
+else:
+ print("the given triangle is scalene")
+ 
+ 
+ 
+ques10) 
+
+grade=float(input("enter the grade(in %):"))
+if grade>=90:
+ print("A grade")
+elif grade<=89 and grade>=70:
+ print("B grade")
+elif grade<=69 and grade>=50:
+ print("C grade")
+else:
+ print("D grade") 
+
+
+
+ques7) 
+bs=float(input("enter the basic salary:"))
+hra=(30/100)*bs
+da=0.2*bs
+ta=0.1*bs
+pf=1400
+ns=(bs+hra+ta+da)-pf
+print("the net salary of the employee is:",ns)
+
+
+ques5) upper case to lower case
+
+name="rItIKa"
+print(name.lower())
+
+#lower to upper
+
+name="riddhima"
+print(name.upper())
